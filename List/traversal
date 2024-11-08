@@ -1,0 +1,11 @@
+#list printing using for loop
+list=[1,56,34,89,2]
+for item in list:
+    print(item)
+
+#using while
+print("Traversal using while loop")
+i=0
+while i in range(len(list)):
+    print(list[i])
+    i+=1
